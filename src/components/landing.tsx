@@ -57,7 +57,7 @@ export default function LandingPage() {
                     </p>
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-xl font-bold">$49.99</span>
-                      <Button variant={"outline"} size="sm">
+                      <Button variant={"outline"} className=" bg-green-500 hover:bg-green-400" size="sm">
                         Add to Cart
                       </Button>
                     </div>
@@ -80,7 +80,7 @@ export default function LandingPage() {
                     </p>
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-xl font-bold">$59.99</span>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" className=" bg-green-500 hover:bg-green-400"  size="sm">
                         Add to Cart
                       </Button>
                     </div>
@@ -103,7 +103,7 @@ export default function LandingPage() {
                     </p>
                     <div className="flex items-center justify-center gap-4">
                       <span className="text-xl font-bold">$39.99</span>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" className=" bg-green-500 hover:bg-green-400"  size="sm">
                         Add to Cart
                       </Button>
                     </div>
@@ -126,7 +126,7 @@ export default function LandingPage() {
                     </p>
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-xl font-bold">$69.99</span>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" className=" bg-green-500 hover:bg-green-400"  size="sm">
                         Add to Cart
                       </Button>
                     </div>

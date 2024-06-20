@@ -6,12 +6,12 @@ import Image from 'next/image'
 
 export default function Testimonials() {
   return (
-    <section className=" bg-background/70 py-12 md:py-24 lg:py-32">
+    <section className=" bg-background/70 dark:text-green-400 py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Customers Say</h2>
-                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Hear from our satisfied customers about their experiences with Lewe.
                 </p>
               </div>
@@ -26,8 +26,8 @@ export default function Testimonials() {
                       className="aspect-square rounded-full object-cover"
                     />
                     <div className="space-y-2 text-center">
-                      <h3 className="text-lg font-medium">John Doe</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
+                      <h3 className="text-lg font-medium dark:text-green-400">John Doe</h3>
+                      <p className="dark:text-green-400">
                         I ve been using Lewes products for months and Im so impressed with the quality and
                         effectiveness. Highly recommended!
                       </p>
@@ -44,8 +44,8 @@ export default function Testimonials() {
                       className="aspect-square rounded-full object-cover"
                     />
                     <div className="space-y-2 text-center">
-                      <h3 className="text-lg font-medium">Jane Smith</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
+                      <h3 className="text-lg font-medium dark:text-green-400">Jane Smith</h3>
+                      <p className="dark:text-green-400">
                         Lewes products have been a game-changer for my health. I cannot recommend them enough!
                       </p>
                     </div>
@@ -61,8 +61,8 @@ export default function Testimonials() {
                       className="aspect-square rounded-full object-cover"
                     />
                     <div className="space-y-2 text-center">
-                      <h3 className="text-lg font-medium">Michael Johnson</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
+                      <h3 className="text-lg font-medium dark:text-green-400">Michael Johnson</h3>
+                      <p className="text-gray-500 dark:text-green-400">
                         I ve tried many cannabinoid products, but Lewes are by far the best. Im a lifelong customer!
                       </p>
                     </div>
