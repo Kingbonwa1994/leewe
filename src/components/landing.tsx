@@ -13,7 +13,7 @@ export default function LandingPage() {
      <Header />
       <main className="flex-1">
         <Hero />
-        <section className="py-12 md:py-24 lg:py-32">
+        <section className="py-12 md:py-24 lg:py-32 bg-background">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -40,7 +40,7 @@ export default function LandingPage() {
                 </Button>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
+            <div className="mx-auto items-center bg-background grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
               <Card>
                 <CardContent className="flex flex-col items-center justify-center space-y-4">
                   <Image
