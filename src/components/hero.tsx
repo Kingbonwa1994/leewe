@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
           <div>
             <Link
-              href="#"
+              href="/shop"
               className="inline-flex h-10 items-center justify-center rounded-md bg-white px-6 text-sm font-medium text-green-600 shadow transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-500 dark:bg-gray-950 dark:text-green-400 dark:hover:bg-gray-800"
               prefetch={false}
             >
@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center">
           <Image
-            src="/images/pic1.jpg"
+            src="/images/pic9.jpg"
             width="550"
             height="550"
             alt="Hero"

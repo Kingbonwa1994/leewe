@@ -5,6 +5,7 @@ import Header from "./header"
 import Image from "next/image"
 import Hero from "./hero"
 import Testimonials from './testimonials'
+import Footer from "./footer"
 
 export default function LandingPage() {
   return (
@@ -56,7 +57,7 @@ export default function LandingPage() {
                     </p>
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-xl font-bold">$49.99</span>
-                      <Button variant="outline" size="sm">
+                      <Button variant={"outline"} size="sm">
                         Add to Cart
                       </Button>
                     </div>
@@ -100,7 +101,7 @@ export default function LandingPage() {
                     <p className="text-gray-500 dark:text-gray-400">
                       Our Delta-8 gummies are made with natural, hemp-derived Delta-8.
                     </p>
-                    <div className="flex items-center justify-center gap-2">
+                    <div className="flex items-center justify-center gap-4">
                       <span className="text-xl font-bold">$39.99</span>
                       <Button variant="outline" size="sm">
                         Add to Cart
@@ -137,22 +138,7 @@ export default function LandingPage() {
         </section>
         <Testimonials />
       </main>
-      <footer className="bg-gray-900 py-6 text-gray-400">
-        <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:gap-0">
-          <p className="text-sm">&copy; 2024 Lewe. All rights reserved.</p>
-          <nav className="flex items-center gap-4">
-            <Link href="#" className="text-sm hover:text-gray-200" prefetch={false}>
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-sm hover:text-gray-200" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="text-sm hover:text-gray-200" prefetch={false}>
-              Contact Us
-            </Link>
-          </nav>
-        </div>
-      </footer>
+     <Footer />
     </div>
   )
 }

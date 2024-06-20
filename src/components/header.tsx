@@ -4,45 +4,36 @@ import {Button} from '@/components/ui/button'
 
 export default function Header() {
   return (
-    <div> <div className="bg-gray-100 py-2 dark:bg-gray-800">
-    <div className="container relative mx-auto px-4 md:px-6">
-      <div className="text-sm absolute text-gray-500 dark:text-gray-400 whitespace-nowrap overflow-hidden
-  tranlate-x 15s linear infinite">
-        Welcome to Lewe - your trusted source for premium cannabinoids. Explore our wide selection of high-quality
-        products for your health and wellness.
-      </div>
-    </div>
-  </div>
   <header className="bg-white py-4 shadow dark:bg-gray-950">
     <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
-      <Link href="#" className="flex items-center gap-2" prefetch={false}>
+      <Link href="/" className="flex items-center gap-2" prefetch={false}>
         <LeafIcon className="h-6 w-6 text-green-500" />
         <span className="text-xl font-bold text-gray-900 dark:text-gray-50">Lewe</span>
       </Link>
       <nav className="hidden md:flex items-center gap-6">
         <Link
-          href="#"
+          href="/shop"
           className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
           prefetch={false}
         >
           Shop
         </Link>
         <Link
-          href="#"
+          href="/about"
           className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
           prefetch={false}
         >
           About
         </Link>
         <Link
-          href="#"
+          href="/blog"
           className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
           prefetch={false}
         >
           Blog
         </Link>
         <Link
-          href="#"
+          href="/contact"
           className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
           prefetch={false}
         >
@@ -64,7 +55,7 @@ export default function Header() {
         </Button>
       </div>
     </div>
-  </header></div>
+  </header>
   )
 }
    
