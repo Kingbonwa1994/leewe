@@ -8,39 +8,39 @@ export default function Header() {
     <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
       <Link href="/" className="flex items-center gap-2" prefetch={false}>
         <LeafIcon className="h-6 w-6 text-green-500" />
-        <span className="text-xl font-bold text-gray-900 dark:text-gray-50">Lewe</span>
+        <span className="text-xl font-bold text-gray-900 dark:text-green-500">Lewe</span>
       </Link>
       <nav className="hidden md:flex items-center gap-6">
         <Link
           href="/shop"
-          className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+          className="dark:text-green-500 dark:hover:text-green-400"
           prefetch={false}
         >
           Shop
         </Link>
         <Link
           href="/about"
-          className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+          className="text-gray-600 hover:text-gray-900  dark:text-green-500"
           prefetch={false}
         >
           About
         </Link>
         <Link
           href="/blog"
-          className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+          className="text-gray-600 hover:text-gray-900 dark:text-green-500"
           prefetch={false}
         >
           Blog
         </Link>
         <Link
           href="/contact"
-          className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+          className="text-gray-600 hover:text-gray-900  dark:text-green-500 dark:hover:text-green-400"
           prefetch={false}
         >
           Contact
         </Link>
       </nav>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 dark:text-green-500 dark:hover:text-green-400">
         <Button variant="outline" size="sm" className="hidden md:inline-flex">
           <SearchIcon className="h-4 w-4" />
           <span className="sr-only">Search</span>

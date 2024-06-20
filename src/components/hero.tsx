@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="container mx-auto px-4 md:px-6">
       <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col justify-center space-y-4">
-          <h1 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl">
+          <h1 className="text-3xl font-bold text-background sm:text-4xl md:text-5xl lg:text-6xl">
             Discover the Power of Cannabinoids
           </h1>
           <p className="text-gray-200 md:text-xl">
