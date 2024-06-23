@@ -21,7 +21,7 @@ export default function Component() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-[#333333]">WhatsApp</h3>
-                  <p className="text-[#666666]">+1 (555) 123-4567</p>
+                  <p className="text-[#666666]">(+27) 61 648 6983</p>
                   <Link
                     href="#"
                     className="mt-2 inline-flex items-center text-[#00C853] hover:underline"

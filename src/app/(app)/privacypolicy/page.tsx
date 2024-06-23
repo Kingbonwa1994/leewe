@@ -1,7 +1,7 @@
 
 export default function Component() {
   return (
-    <div className="w-full max-w-3xl mx-auto py-12 md:py-20 px-4 md:px-0">
+    <div className=" bg-background w-full max-w-3xl mx-auto py-12 md:py-20 px-4 md:px-0">
       <div className="space-y-8">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Privacy Policy</h1>
