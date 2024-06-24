@@ -1,5 +1,17 @@
+import  payload  from 'payload'
+
 
 export default function Component() {
+
+const findUser = async () => {
+  const users = await payload.find({
+    collection: 'users',
+  
+  })
+  console.log(users)
+}
+findUser();
+
   return (
     <div className=" bg-background w-full max-w-3xl mx-auto py-12 md:py-20 px-4 md:px-0">
       <div className="space-y-8">
