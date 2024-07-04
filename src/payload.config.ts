@@ -36,5 +36,6 @@ export default buildConfig({
   sharp,
   plugins: [
     // storage-adapter-placeholder
+    
   ],
 })

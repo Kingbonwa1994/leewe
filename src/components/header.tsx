@@ -1,16 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
 import {Button} from '@/components/ui/button'
+import { DialogClose, DialogContent, Dialog, DialogTrigger } from '@/components/ui/dialog'
 
 export default function Header() {
   return (
   <header className="bg-white py-4 shadow dark:bg-gray-950">
+      <Dialog>
     <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
       <Link href="/" className="flex items-center gap-2" prefetch={false}>
         <LeafIcon className="h-6 w-6 text-green-500" />
         <span className="text-xl font-bold text-gray-900 dark:text-green-500">Lewe</span>
       </Link>
-      <nav className="hidden md:flex items-center gap-6">
+      <DialogContent className='w-1/2'>
+      <nav className="flex flex-col gap-6 md:block">
         <Link
           href="/shop"
           className="dark:text-green-500 dark:hover:text-green-400"
@@ -40,25 +43,29 @@ export default function Header() {
           Contact
         </Link>
       </nav>
+      </DialogContent>
       <div className="flex items-center gap-4 dark:text-green-500 dark:hover:text-green-400">
         <Button variant="outline" size="sm" className="hidden md:inline-flex">
           <SearchIcon className="h-4 w-4" />
           <span className="sr-only">Search</span>
         </Button>
-        <Button variant="outline" size="sm" className="hidden md:inline-flex">
+        <Button variant="outline" size="sm" className=" md:inline-flex">
           <ShoppingCartIcon className="h-4 w-4" />
           <span className="sr-only">Cart</span>
         </Button>
+        <DialogTrigger asChild>
         <Button variant="outline" size="sm" className="md:hidden">
           <MenuIcon className="h-4 w-4" />
           <span className="sr-only">Menu</span>
         </Button>
+        </DialogTrigger>
       </div>
     </div>
+    </Dialog>
   </header>
   )
 }
-   
+
      
 function LeafIcon(props:any) {
     return (
