@@ -42,7 +42,7 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto items-center bg-background grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
               <Card>
-                <CardContent className="flex flex-col items-center justify-center space-y-4">
+                <CardContent className="flex flex-col pt-2 items-center justify-center space-y-4">
                   <Image
                     src="/images/pic3.jpg"
                     width="150"
@@ -65,7 +65,7 @@ export default function LandingPage() {
                 </CardContent>
               </Card>
               <Card>
-                <CardContent className="flex flex-col items-center justify-center space-y-4">
+                <CardContent className="flex flex-col pt-2 items-center justify-center space-y-4">
                   <Image
                     src="/images/pic4.jpg"
                     width="150"
@@ -88,7 +88,7 @@ export default function LandingPage() {
                 </CardContent>
               </Card>
               <Card>
-                <CardContent className="flex flex-col items-center justify-center space-y-4">
+                <CardContent className="flex flex-col pt-2 items-center justify-center space-y-4">
                   <Image
                     src="/images/pic9.jpg"
                     width="150"
@@ -111,7 +111,7 @@ export default function LandingPage() {
                 </CardContent>
               </Card>
               <Card>
-                <CardContent className="flex flex-col items-center justify-center space-y-4">
+                <CardContent className="flex flex-col pt-2 items-center justify-center space-y-4">
                   <Image
                     src="/images/pic7.jpg"
                     width="150"

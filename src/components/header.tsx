@@ -6,13 +6,13 @@ import { DialogClose, DialogContent, Dialog, DialogTrigger } from '@/components/
 export default function Header() {
   return (
   <header className="bg-white py-4 shadow dark:bg-gray-950">
-      <Dialog>
+      <Dialog >
     <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
       <Link href="/" className="flex items-center gap-2" prefetch={false}>
         <LeafIcon className="h-6 w-6 text-green-500" />
         <span className="text-xl font-bold text-gray-900 dark:text-green-500">Lewe</span>
       </Link>
-      <DialogContent className='w-1/2'>
+      <DialogContent className='w-1/2 rounded-2xl'>
       <nav className="flex flex-col gap-6 md:block">
         <Link
           href="/shop"

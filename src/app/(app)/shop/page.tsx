@@ -22,9 +22,9 @@ export default function Component() {
       description: "Potent Delta-8 THC tincture for relaxation",
       price: 59.99,
       images: [
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
+        "/images/pic1.jpg",
+        "/images/pic2.jpg",
+        "/images/pic3.jpg",
       ],
     },
     {
@@ -33,9 +33,9 @@ export default function Component() {
       description: "Broad spectrum CBG supplements for wellness",
       price: 39.99,
       images: [
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
+        "/images/pic1.jpg",
+        "/images/pic2.jpg",
+        "/images/pic3.jpg",
       ],
     },
     {
@@ -44,9 +44,9 @@ export default function Component() {
       description: "Soothing CBC infused topical cream",
       price: 29.99,
       images: [
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
+        "/images/pic1.jpg",
+        "/images/pic2.jpg",
+        "/images/pic3.jpg",
       ],
     },
     {
@@ -55,9 +55,9 @@ export default function Component() {
       description: "Restful CBN supplements for better sleep",
       price: 49.99,
       images: [
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
+        "/images/pic1.jpg",
+        "/images/pic2.jpg",
+        "/images/pic3.jpg",
       ],
     },
     {
@@ -66,9 +66,9 @@ export default function Component() {
       description: "Energizing THCV infused gummies",
       price: 39.99,
       images: [
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
-        "/placeholder.svg?height=400&width=400",
+        "/images/pic5.jpg",
+        "/images/pic2.jpg",
+        "/images/pic7.jpg",
       ],
     },
   ]
@@ -94,7 +94,7 @@ export default function Component() {
                 {product.images.map((image, index) => (
                   <CarouselItem key={index}>
                     <Image
-                      src="/placeholder.svg"
+                      src={`${product.images[index]}`}
                       alt={`${product.name} image ${index + 1}`}
                       width={400}
                       height={400}

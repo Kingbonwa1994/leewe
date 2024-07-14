@@ -17,7 +17,7 @@ export default function Testimonials() {
               </div>
               <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
                 <Card>
-                  <CardContent className="flex flex-col items-center justify-center space-y-4">
+                  <CardContent className="flex pt-2 flex-col items-center justify-center space-y-4">
                     <Image
                       src="/images/avatar.jpg"
                       width="64"
@@ -35,7 +35,7 @@ export default function Testimonials() {
                   </CardContent>
                 </Card>
                 <Card>
-                  <CardContent className="flex flex-col items-center justify-center space-y-4">
+                  <CardContent className="flex flex-col pt-2 items-center justify-center space-y-4">
                     <Image
                       src="/images/avatar.jpg"
                       width="64"
@@ -52,7 +52,7 @@ export default function Testimonials() {
                   </CardContent>
                 </Card>
                 <Card>
-                  <CardContent className="flex flex-col items-center justify-center space-y-4">
+                  <CardContent className="flex border-green-400 flex-col pt-2 items-center justify-center space-y-4">
                     <Image
                       src="/images/avatar.jpg"
                       width="64"
